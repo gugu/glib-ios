@@ -429,14 +429,14 @@ extern int vswprintf (wchar_t *, size_t, const wchar_t *, va_list);
 
 #ifndef GNULIB_defined_setlocale /* don't override gnulib */
 #undef setlocale
-#define setlocale libintl_setlocale
+//#define setlocale libintl_setlocale
 extern char *setlocale (int, const char *);
 #endif
 
 #if 1
 
 #undef newlocale
-#define newlocale libintl_newlocale
+//#define newlocale libintl_newlocale
 extern locale_t newlocale (int, const char *, locale_t);
 
 #endif

@@ -10,6 +10,7 @@
 
 #include <limits.h>
 #include <float.h>
+
 #define GLIB_HAVE_ALLOCA_H
 
 /* Specifies that GLib's g_print*() functions wrap the

@@ -23,7 +23,6 @@
 #define __G_THREADPRIVATE_H__
 
 #include "deprecated/gthread.h"
-
 typedef struct _GRealThread GRealThread;
 struct  _GRealThread
 {
